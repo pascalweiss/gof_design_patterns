@@ -1,0 +1,2 @@
+- https://en.wikipedia.org/wiki/Command_pattern
+- https://springframework.guru/gang-of-four-design-patterns/command-pattern/
