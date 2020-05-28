@@ -1,3 +1,6 @@
+# In this example, the invoker represents a gamepad with three buttons:
+# a, b and back.
+
 class Invoker:
     undo_command = None
 
@@ -9,5 +12,5 @@ class Invoker:
         command_b.execute()
         self.undo_command = command_b
 
-    def undo_pressed(self):
+    def back_pressed(self):
         self.undo_command.undo()
