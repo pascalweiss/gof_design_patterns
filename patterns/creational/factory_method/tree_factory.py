@@ -19,3 +19,4 @@ class ItalianTreeFactory(TreeFactory):
 class GermanTreeFactory(TreeFactory):
     def create_tree(self):
         return random.choice([lambda: Spruce(), lambda: Beech(), lambda: Pine()])()
+esig

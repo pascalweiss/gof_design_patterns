@@ -1,0 +1,12 @@
+import unittest
+from patterns.creational.singleton.singleton import Singleton
+
+
+class TestClient(unittest.TestCase):
+    def test_single_initialization(self):
+        singleton_one = Singleton.get_instance()
+        singleton_two = Singleton.get_instance()
+
+        # ensure, that the Singleton.__init__ was called only once
+        assert(singleton_two.get_init_count() is 1)
+        assert(singleton_one is singleton_two)
