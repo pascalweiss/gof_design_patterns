@@ -15,5 +15,5 @@ class OrderFacade(IFacade):
             if payment_successful:
                 ShippingService.ship(product)
                 order_successful = True
-                print("Order for product {} successful".format(product.uid))
+                print("Order for product.py {} successful".format(product.uid))
         return order_successful
