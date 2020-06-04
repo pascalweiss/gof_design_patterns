@@ -1,5 +1,4 @@
-from patterns.structural.facade.domain import Product
-from patterns.structural.facade.services import *
+from patterns.structural.facade.subsystem import *
 
 
 class IFacade:

@@ -1,5 +1,5 @@
 import random
-from patterns.creational.factory_method.tree import *
+from patterns.creational.factory_method.product import *
 
 
 # ---------------- Creator ---------------------
@@ -19,4 +19,3 @@ class ItalianTreeFactory(TreeFactory):
 class GermanTreeFactory(TreeFactory):
     def create_tree(self):
         return random.choice([lambda: Spruce(), lambda: Beech(), lambda: Pine()])()
-esig

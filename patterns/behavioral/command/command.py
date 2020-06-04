@@ -1,4 +1,4 @@
-from patterns.behavioral.command.receivers import Receiver1, Receiver2
+from patterns.behavioral.command.receiver import Receiver1, Receiver2
 
 
 # -----------------Command Interface---------------------------------

@@ -1,6 +1,6 @@
 import unittest
 from patterns.behavioral.command.Invoker import Invoker
-from patterns.behavioral.command.commands import *
+from patterns.behavioral.command.command import *
 
 
 class TestClient(unittest.TestCase):

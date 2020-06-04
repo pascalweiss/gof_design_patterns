@@ -1,5 +1,5 @@
 import unittest
-from patterns.creational.factory_method.tree_factory import *
+from patterns.creational.factory_method.creator import *
 
 
 class TestClient(unittest.TestCase):

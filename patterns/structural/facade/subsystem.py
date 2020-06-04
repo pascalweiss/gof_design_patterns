@@ -1,5 +1,16 @@
 
 
+# ----------------- Domain ---------------------
+
+class Product:
+    name = None
+
+    def __init__(self, uid):
+        self.uid = uid
+
+# ----------------- Services --------------------
+
+
 class PaymentService:
     @staticmethod
     def make_payment(product):
