@@ -1,6 +1,8 @@
-from patterns.behavioral.iterator.iterator import ListIterator, TreeIterator, AbsurdIterator, EndlessIterator
+from patterns.behavioral.iterator.iterator import *
 from patterns.behavioral.iterator.utils.util_tree import Node
 
+
+# --- Iterable ---
 
 class Iterable:
     def get_iterator(self):
@@ -10,7 +12,7 @@ class Iterable:
         raise NotImplementedError
 
 
-# ----------- Concrete Iterables ------------------
+# --- Concrete Iterables ---
 
 class ListIterable(Iterable):
     """

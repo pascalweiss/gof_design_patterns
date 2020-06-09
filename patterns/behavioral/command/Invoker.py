@@ -1,6 +1,7 @@
 # In this example, the invoker represents a gamepad with three buttons:
 # a, b and back.
 
+
 class Invoker:
     undo_command = None
 

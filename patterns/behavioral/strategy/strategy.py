@@ -1,6 +1,6 @@
 
 
-# ------------------- Interface --------------------------
+# --- Strategy ---
 
 class Strategy:
 
@@ -8,7 +8,7 @@ class Strategy:
         raise NotImplementedError
 
 
-# -------------- Concrete Strategies ---------------------
+# --- Concrete Strategies ---
 
 class ConcreteStrategyA(Strategy):
     def algorithm_interface(self, context_data):

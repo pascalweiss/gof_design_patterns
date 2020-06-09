@@ -1,6 +1,6 @@
 from patterns.structural.proxy.test_utils.receiver import test_response
 
-# ------------------- Subject --------------------
+# --- Subject ---
 
 
 class Submitter:
@@ -9,7 +9,7 @@ class Submitter:
         raise NotImplementedError
 
 
-# --------------- Real Subject --------------------
+# --- Real Subject ---
 
 class InsecureSubmitter(Submitter):
     def submit(self, data):

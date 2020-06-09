@@ -1,6 +1,8 @@
 from patterns.behavioral.iterator.utils.util_tree import Node
 
 
+# --- Iterator ---
+
 class Iterator:
     def has_next(self):
         raise NotImplementedError
@@ -9,7 +11,7 @@ class Iterator:
         raise NotImplementedError
 
 
-# ------------------- Concrete Iterators ---------------------
+# --- Concrete Iterators ---
 
 class ListIterator(Iterator):
     def __init__(self, l):

@@ -30,7 +30,7 @@ class TestClient(unittest.TestCase):
 
     def test_absurd(self):
         iterable = AbsurdIterable()
-        for i in range(1,7):
+        for i in range(1, 7):
             iterable.add(i)
         aggregation_test(iterable.get_iterator())
 

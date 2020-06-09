@@ -1,13 +1,13 @@
 
 
-# ------------------Product-----------------------
+# --- Product ---
 
 class Tree:
     def get_name(self):
         raise NotImplementedError
 
 
-# ---------------ConcreteProduct------------------
+# --- ConcreteProduct ---
 
 class CorkOak(Tree):
     def get_name(self):

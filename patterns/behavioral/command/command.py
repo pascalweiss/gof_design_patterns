@@ -1,7 +1,7 @@
 from patterns.behavioral.command.receiver import Receiver1, Receiver2
 
 
-# -----------------Command Interface---------------------------------
+# --- Command Interface ---
 
 class Command:
     def execute(self):
@@ -11,7 +11,7 @@ class Command:
         raise NotImplementedError
 
 
-# ------------------Concrete Commands: Receiver1---------------------------------
+# --- Concrete Commands: Receiver1 ---
 
 # Command A
 class CommandReceiver1Left(Command):
@@ -37,7 +37,7 @@ class CommandReceiver1Right(Command):
         self.receiver.step_left()
 
 
-# ------------------Concrete Commands: Receiver1---------------------------------
+# --- Concrete Commands: Receiver1 ---
 
 # Command A
 class CommandReceiver2Forward(Command):

@@ -1,7 +1,7 @@
 from patterns.creational.abstract_factory.product import LinuxButton, LinuxAlertView, Button, MacButton, MacAlertView
 
 
-# ------------- Factory ----------------------
+# --- Factory ---
 
 class UIFactory:
     def create_button(self):
@@ -11,7 +11,7 @@ class UIFactory:
         raise NotImplementedError
 
 
-# ------------- Concrete Factories -----------
+# --- Concrete Factories ---
 
 class LinuxFactory(UIFactory):
     def create_button(self):

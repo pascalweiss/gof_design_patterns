@@ -1,13 +1,13 @@
 
 
-# ------------- Component ----------------------
+# --- Component ---
 
 class Beverage:
     def cost(self):
         raise NotImplementedError
 
 
-# ------------ ConcreteComponent ---------------
+# --- Concrete Component ---
 
 class Espresso(Beverage):
     def cost(self):

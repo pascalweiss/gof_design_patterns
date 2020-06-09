@@ -2,14 +2,14 @@ import random
 from patterns.creational.factory_method.product import *
 
 
-# ---------------- Creator ---------------------
+# --- Creator ---
 
 class TreeFactory:
     def create_tree(self):
         raise NotImplementedError
 
 
-# ------------ ConcreteCreator -------------------
+# --- Concrete Creator ---
 
 class ItalianTreeFactory(TreeFactory):
     def create_tree(self):

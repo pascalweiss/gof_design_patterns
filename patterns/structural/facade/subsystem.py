@@ -1,6 +1,6 @@
 
 
-# ----------------- Domain ---------------------
+# --- Domain ---
 
 class Product:
     name = None
@@ -8,7 +8,7 @@ class Product:
     def __init__(self, uid):
         self.uid = uid
 
-# ----------------- Services --------------------
+# --- Services ---
 
 
 class PaymentService:

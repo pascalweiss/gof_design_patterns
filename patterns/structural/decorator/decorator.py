@@ -1,7 +1,7 @@
 from patterns.structural.decorator.component import Beverage
 
 
-# --------------- Decorator --------------------
+# --- Decorator ---
 
 class AddonBeverage(Beverage):
     def __init__(self, b: Beverage):
@@ -11,7 +11,7 @@ class AddonBeverage(Beverage):
         raise NotImplementedError
 
 
-# --------------- ConcreteDecorator --------------
+# --- ConcreteDecorator ---
 
 class Soy(AddonBeverage):
     def cost(self):

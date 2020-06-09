@@ -1,8 +1,7 @@
-
-
-# ---------------------- interface --------------------------
 from random import random
 
+
+# ---------------------- Observable --------------------------
 
 class IObservable:
     def __init__(self):
@@ -19,7 +18,7 @@ class IObservable:
             obs.update()
 
 
-# ---------------------- implementations ----------------------
+# --- Concrete Observables ---
 
 class TempObservable(IObservable):
     temp = 0

@@ -1,7 +1,7 @@
 from patterns.creational.builder.product import Product
 
 
-# --------------------Abstract--------------------------
+# --- Abstract ---
 
 class Builder:
     def __init__(self):
@@ -17,7 +17,7 @@ class Builder:
         return self.product
 
 
-# ---------------Concrete Builders ----------------------
+# --- Concrete Builders ---
 
 class BuilderRed(Builder):
     def build_foo(self):

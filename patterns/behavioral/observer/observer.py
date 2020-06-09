@@ -1,8 +1,6 @@
 
 
-# ----------------- interface ----------------------
-from patterns.behavioral.observer.observable import IObservable
-
+# ----------------- Observer ----------------------
 
 class IObserver:
     def __init__(self, observable):
@@ -14,7 +12,7 @@ class IObserver:
         raise NotImplementedError
 
 
-# --------------- Implementations --------------------
+# --------------- Concrete Observers ------------------
 
 class TempObserver(IObserver):
     def update(self):

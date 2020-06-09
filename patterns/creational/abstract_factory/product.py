@@ -10,7 +10,7 @@ class AlertView:
     button = None
 
 
-# ------------ Concrete Products --------------
+# --- Concrete Products ---
 
 class LinuxButton(Button):
     pass
