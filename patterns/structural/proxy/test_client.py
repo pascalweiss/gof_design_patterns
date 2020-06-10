@@ -1,5 +1,12 @@
 """
-Used for providing a "in place of" object to restrict control over the "real" object.
+- Pattern Name -
+Proxy
+
+- Intent -
+"Provide a surrogate or placeholder for another object to control access to it." (GoF - Design Patterns)
+
+- Also Known As -
+Surrogate
 """
 
 import unittest

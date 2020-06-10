@@ -1,6 +1,17 @@
+"""
+- Pattern Name -
+Observer
+
+- Intent -
+"Define a one-to-many dependency between objects so that when one object
+changes state, all its dependents are notified and updated automatically." (GoF - Design Patterns)
+
+- Also Known As -
+Dependents, Publish-Subscribe
+"""
+
 import unittest
 from hamcrest import greater_than, assert_that
-
 from patterns.behavioral.observer.observable import TempObservable, HumidObservable
 from patterns.behavioral.observer.observer import TempObserver, HumidObserver
 

@@ -1,6 +1,6 @@
 
 
-# ----------------- Products ------------------
+# --- Products ---
 
 class Button:
     pass

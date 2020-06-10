@@ -1,7 +1,17 @@
+"""
+- Pattern Name -
+Strategy
+
+- Intent -
+"Define a family of algorithms, encapsulate each one, and make them interchange-
+able. Strategy lets the algorithm vary independently from clients that use it." (GoF - Design Patterns)
+
+- Also Known As -
+Policy
+"""
+
 import unittest
-
 from hamcrest import equal_to, assert_that
-
 from patterns.behavioral.strategy.context import Context
 from patterns.behavioral.strategy.strategy import ConcreteStrategyA, ConcreteStrategyB
 

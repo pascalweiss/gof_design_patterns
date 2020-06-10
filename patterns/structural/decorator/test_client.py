@@ -1,7 +1,17 @@
+"""
+- Pattern Name -
+Decorator
+
+- Intent -
+"Attach additional responsibilities to an object dynamically. Decorators provide a lexible alternative
+to subclassing for extending functionality." (GoF - Design Patterns)
+
+- Also Known As -
+Wrapper
+"""
+
 import unittest
-
 from hamcrest import equal_to, assert_that
-
 from patterns.structural.decorator.component import Espresso, Decaf
 from patterns.structural.decorator.decorator import Caramel, Soy
 
