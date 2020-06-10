@@ -1,4 +1,4 @@
-from patterns.behavioral.iterator.utils.util_tree import Node
+from behavioral.iterator.utils.util_tree import Node
 
 
 # --- Iterator ---

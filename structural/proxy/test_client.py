@@ -12,8 +12,8 @@ Surrogate
 import unittest
 from hamcrest import equal_to, assert_that
 
-from patterns.structural.proxy.test_utils.domain import Data
-from patterns.structural.proxy.test_utils.subject_factory import create_submitter
+from structural.proxy.test_utils.domain import Data
+from structural.proxy.test_utils.subject_factory import create_submitter
 
 
 class TestClient(unittest.TestCase):

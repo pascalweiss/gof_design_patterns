@@ -12,7 +12,7 @@ Cursor
 
 import unittest
 from hamcrest import equal_to, assert_that
-from patterns.behavioral.iterator.iterable import ListIterable, TreeIterable, AbsurdIterable, EndlessIterable
+from behavioral.iterator.iterable import ListIterable, TreeIterable, AbsurdIterable, EndlessIterable
 
 
 def aggregation_test(iterator):

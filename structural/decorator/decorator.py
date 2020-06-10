@@ -1,4 +1,4 @@
-from patterns.structural.decorator.component import Beverage
+from structural.decorator.component import Beverage
 
 
 # --- Decorator ---

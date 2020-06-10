@@ -9,8 +9,8 @@ same construction process can create different representations." (GoF - Design P
 
 import unittest
 from hamcrest import assert_that, equal_to
-from patterns.creational.builder.builder import BuilderRed, BuilderGreen
-from patterns.creational.builder.director import Director
+from creational.builder.builder import BuilderRed, BuilderGreen
+from creational.builder.director import Director
 
 
 class TestClient(unittest.TestCase):

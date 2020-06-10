@@ -8,7 +8,7 @@ Singleton
 
 
 import unittest
-from patterns.creational.singleton.singleton import Singleton
+from creational.singleton.singleton import Singleton
 
 
 class TestClient(unittest.TestCase):

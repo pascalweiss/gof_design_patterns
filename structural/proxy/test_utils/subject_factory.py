@@ -1,4 +1,4 @@
-from patterns.structural.proxy.proxy import SubmitterProxy
+from structural.proxy.proxy import SubmitterProxy
 
 
 def create_submitter():

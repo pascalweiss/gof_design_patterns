@@ -1,4 +1,4 @@
-from patterns.creational.abstract_factory.product import LinuxButton, LinuxAlertView, Button, MacButton, MacAlertView
+from creational.abstract_factory.product import LinuxButton, LinuxAlertView, Button, MacButton, MacAlertView
 
 
 # --- Factory ---

@@ -11,8 +11,8 @@ Action, Transaction
 """
 
 import unittest
-from patterns.behavioral.command.Invoker import Invoker
-from patterns.behavioral.command.command import *
+from behavioral.command.Invoker import Invoker
+from behavioral.command.command import *
 
 
 class TestClient(unittest.TestCase):

@@ -12,8 +12,8 @@ Policy
 
 import unittest
 from hamcrest import equal_to, assert_that
-from patterns.behavioral.strategy.context import Context
-from patterns.behavioral.strategy.strategy import ConcreteStrategyA, ConcreteStrategyB
+from behavioral.strategy.context import Context
+from behavioral.strategy.strategy import ConcreteStrategyA, ConcreteStrategyB
 
 
 class TestClient(unittest.TestCase):

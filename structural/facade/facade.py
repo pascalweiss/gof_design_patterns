@@ -1,4 +1,4 @@
-from patterns.structural.facade.subsystem import *
+from structural.facade.subsystem import *
 
 
 class IFacade:

@@ -11,7 +11,7 @@ Virtual Constructor
 """
 
 import unittest
-from patterns.creational.factory_method.creator import *
+from creational.factory_method.creator import *
 
 
 class TestClient(unittest.TestCase):

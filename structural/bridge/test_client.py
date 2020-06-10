@@ -20,8 +20,8 @@ concrete implementors.
 
 import unittest
 from hamcrest import equal_to, assert_that
-from patterns.structural.bridge.abstraction import Letter, WikiPage, Article
-from patterns.structural.bridge.implementor import Paper, Audio, Web
+from structural.bridge.abstraction import Letter, WikiPage, Article
+from structural.bridge.implementor import Paper, Audio, Web
 
 
 class TestClient(unittest.TestCase):

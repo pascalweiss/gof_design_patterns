@@ -1,5 +1,5 @@
-from patterns.behavioral.iterator.iterator import *
-from patterns.behavioral.iterator.utils.util_tree import Node
+from behavioral.iterator.iterator import *
+from behavioral.iterator.utils.util_tree import Node
 
 
 # --- Iterable ---

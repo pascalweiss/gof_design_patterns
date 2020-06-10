@@ -8,7 +8,7 @@ higher-level interface that makes the subsystem easier to use." (GoF - Design Pa
 """
 
 import unittest
-from patterns.structural.facade.facade import OrderFacade
+from structural.facade.facade import OrderFacade
 
 
 class Controller:

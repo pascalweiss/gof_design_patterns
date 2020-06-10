@@ -12,8 +12,8 @@ Wrapper
 
 import unittest
 from hamcrest import equal_to, assert_that
-from patterns.structural.decorator.component import Espresso, Decaf
-from patterns.structural.decorator.decorator import Caramel, Soy
+from structural.decorator.component import Espresso, Decaf
+from structural.decorator.decorator import Caramel, Soy
 
 
 class TestClient(unittest.TestCase):

@@ -11,8 +11,8 @@ Kit
 """
 
 import unittest
-from patterns.creational.abstract_factory.factory import *
-from patterns.creational.abstract_factory.product import *
+from creational.abstract_factory.factory import *
+from creational.abstract_factory.product import *
 
 
 class TestClient(unittest.TestCase):

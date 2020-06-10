@@ -1,4 +1,4 @@
-from patterns.creational.builder.builder import Builder
+from creational.builder.builder import Builder
 
 
 class Director:

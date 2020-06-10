@@ -1,4 +1,4 @@
-from patterns.creational.builder.product import Product
+from creational.builder.product import Product
 
 
 # --- Abstract ---

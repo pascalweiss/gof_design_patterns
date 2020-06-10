@@ -1,5 +1,5 @@
 # ------------------- Abstraction --------------------
-from patterns.structural.bridge.implementor import Renderer
+from structural.bridge.implementor import Renderer
 
 
 class Document:

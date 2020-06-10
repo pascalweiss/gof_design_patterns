@@ -12,8 +12,8 @@ Dependents, Publish-Subscribe
 
 import unittest
 from hamcrest import greater_than, assert_that
-from patterns.behavioral.observer.observable import TempObservable, HumidObservable
-from patterns.behavioral.observer.observer import TempObserver, HumidObserver
+from behavioral.observer.observable import TempObservable, HumidObservable
+from behavioral.observer.observer import TempObserver, HumidObserver
 
 
 class TestClient(unittest.TestCase):

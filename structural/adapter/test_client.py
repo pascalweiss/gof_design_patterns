@@ -17,8 +17,8 @@ UserTarget is not compatible with target_invoker.
 
 import unittest
 from hamcrest import equal_to, assert_that
-from patterns.structural.adapter.adapter import InvokerTargetAdapter
-from patterns.structural.adapter.target import InvokerTarget
+from structural.adapter.adapter import InvokerTargetAdapter
+from structural.adapter.target import InvokerTarget
 
 
 def target_invoker(target: InvokerTarget):

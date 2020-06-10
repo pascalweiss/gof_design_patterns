@@ -1,4 +1,4 @@
-from patterns.structural.proxy.subject import Submitter, InsecureSubmitter
+from structural.proxy.subject import Submitter, InsecureSubmitter
 
 
 class SubmitterProxy(Submitter):

@@ -14,7 +14,7 @@ put closed for modification.
 """
 
 import unittest
-from patterns.behavioral.template_method.template_method import MongoCleaner, MySQLCleaner
+from behavioral.template_method.template_method import MongoCleaner, MySQLCleaner
 
 
 class TestClient(unittest.TestCase):

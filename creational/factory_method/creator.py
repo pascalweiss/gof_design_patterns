@@ -1,5 +1,5 @@
 import random
-from patterns.creational.factory_method.product import *
+from creational.factory_method.product import *
 
 
 # --- Creator ---

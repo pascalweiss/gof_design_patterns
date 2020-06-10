@@ -8,7 +8,7 @@ individual objects and compositions of objects uniformly." (GoF - Design Pattern
 """
 
 import unittest
-from patterns.structural.composite.composite import *
+from structural.composite.composite import *
 
 
 class TestClient(unittest.TestCase):

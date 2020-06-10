@@ -1,4 +1,4 @@
-from patterns.structural.proxy.test_utils.receiver import test_response
+from structural.proxy.test_utils.receiver import test_response
 
 # --- Subject ---
 
