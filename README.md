@@ -15,7 +15,7 @@ You can execute all examples with
 ```
 
 ### Structure
-- The Like in the book the patterns are categorized as creational, structural or behavioral. 
+- Like in the book the patterns are categorized as creational, structural or behavioral. 
 - The files are named according to the corresponding pattern-"participant" in the book.
 - The class names correspond to the respective example.
 - The application of each pattern is implemented in a test class `test_client.py`. 

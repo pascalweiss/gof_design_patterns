@@ -1,15 +1,3 @@
-"""
-- Pattern Name -
-Iterator
-
-- Intent -
-"Provide a way to access the elements of an aggregate object sequentially without
-exposing its underlying representation." (GoF - Design Patterns)
-
-- Also Known As -
-Cursor
-"""
-
 import unittest
 from hamcrest import equal_to, assert_that
 from behavioral.iterator.iterable import ListIterable, TreeIterable, AbsurdIterable, EndlessIterable

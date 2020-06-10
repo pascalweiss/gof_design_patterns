@@ -1,12 +1,3 @@
-"""
-- Pattern Name -
-Builder
-
-- Intent -
-"Separate the construction of a complex object from its representation so that the
-same construction process can create different representations." (GoF - Design Patterns)
-"""
-
 import unittest
 from hamcrest import assert_that, equal_to
 from creational.builder.builder import BuilderRed, BuilderGreen

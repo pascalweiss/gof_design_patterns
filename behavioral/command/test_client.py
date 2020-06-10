@@ -1,15 +1,3 @@
-"""
-- Pattern Name -
-Command
-
-- Intent -
-"Encapsulate a request as an object, thereby letting you parameterize clients with
-different requests, queue or log requests, and support undoable operations." (GoF - Design Patterns)
-
-- Also Known As -
-Action, Transaction
-"""
-
 import unittest
 from behavioral.command.Invoker import Invoker
 from behavioral.command.command import *

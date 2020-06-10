@@ -1,15 +1,3 @@
-"""
-- Pattern Name -
-Abstract Factory
-
-- Intent -
-"Provide an interface for creating families of related or dependent objects without
-specifying their concrete classes." (GoF - Design Patterns)
-
-- Also Known As -
-Kit
-"""
-
 import unittest
 from creational.abstract_factory.factory import *
 from creational.abstract_factory.product import *

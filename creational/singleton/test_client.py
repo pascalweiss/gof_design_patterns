@@ -1,12 +1,3 @@
-"""
-- Pattern Name -
-Singleton
-
-- Intent -
-"Ensure a class only has one instance, and provide a global point of access to it." (GoF - Design Patterns)
-"""
-
-
 import unittest
 from creational.singleton.singleton import Singleton
 
