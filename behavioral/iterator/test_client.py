@@ -20,7 +20,6 @@ def aggregation_test(iterator):
     while iterator.has_next():
         item = iterator.get_next()
         aggregation = aggregation + str(item)
-        print(aggregation)
     assert_that(aggregation, equal_to("123456"))
 
 
