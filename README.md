@@ -22,5 +22,5 @@ You can execute all examples with
 
 ### Additional notes
 The patterns were collected and described by Erich Gamma, Richard Helm, 
-Ralph Johnson and John Vlissides - the Gang of Four - in their iconic book [Design Patterns: Elements of Object-Oriented Software](). 
+Ralph Johnson and John Vlissides - the Gang of Four - in their iconic book [Design Patterns: Elements of Reusable Object-Oriented Software](). 
 If you don't have the book, get it. 
